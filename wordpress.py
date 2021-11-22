@@ -69,9 +69,7 @@ def unzip_wordpress():
 
 
 check_root_privilliage()
-print("continue script")
-# check_internet()
+check_internet()
 download_wordpress(wp)
 unzip_wordpress()
-print(mkdir_command)
 
